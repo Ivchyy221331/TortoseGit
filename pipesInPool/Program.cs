@@ -30,19 +30,19 @@ namespace pipesInPool
 
 
 
-
-            else
-            {
-                Console.WriteLine("For {0} hours the pool overflows with {1} liters.",
-                    workingHours, poolOverflow);
-            }
-
             if (poolVolume >= poolFilling)
             {
                 Console.WriteLine("The pool is {0}% full. Pipe 1: {1}%. Pipe 2: {2}%.",
                     poolFillingInPercent, p1InPercent, p2InPercent);
 
             }
+            else
+            {
+                Console.WriteLine("For {0} hours the pool overflows with {1} liters.",
+                    workingHours, poolOverflow);
+            }
+
+           
            
 
 
