@@ -42,7 +42,7 @@ namespace pipesInPool
                 Console.WriteLine("The pool is {0}% full. Pipe 1: {1}%. Pipe 2: {2}%.",
                     poolFillingInPercent, p1InPercent, p2InPercent);
 
-
+            }
            
 
 
